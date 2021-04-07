@@ -6,6 +6,7 @@ module "this" {
   version = "0.0.1"
 
   aws_services = ["ec2.amazonaws.com"]
+  name         = "myRol"
 }
 ```
 
