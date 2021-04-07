@@ -14,6 +14,8 @@ module "this" {
 ## Test
 
 ```sh
+gem install bundler
+bundle install --jobs 4 --retry 3
 bundle exec kitchen test
 ```
 
