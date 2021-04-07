@@ -1,7 +1,6 @@
 variable "name" {
   description = "(Optional, Forces new resource) The name of the role"
   type        = string
-  default     = null
 }
 
 variable "name_prefix" {
