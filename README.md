@@ -1,0 +1,28 @@
+## Usage
+
+```hcl
+module "this" {
+  source  = "bancoripleyperu/iam-role/aws"
+  version = "0.0.1"
+}
+```
+
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## Test
+
+```sh
+bundle exec kitchen test
+```
+
+## Doc
+
+```sh
+pre-commit run -a
+```
+
+## Autor
+ 
+Module managed by [Banco Ripley Peru](https://ripley.com.pe)
